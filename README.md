@@ -23,3 +23,8 @@ Custom vehicle lighting & management system for non-OBD2 off-road build.
 sudo apt update
 sudo apt install -y python3-pygame python3-pil mosquitto
 pip3 install paho-mqtt configparser
+## Quick Start on Raspberry Pi
+
+1. Install dependencies
+```bash
+pip3 install -r requirements.txt
