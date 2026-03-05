@@ -1,5 +1,22 @@
 # OffRoad-Vehicle-Controller
 
+Custom non-OBD2 off-road vehicle lighting & management system.
+
+## Communication
+- **Primary**: WiFi + MQTT (Mosquitto broker on Pi)
+- **Redundant wired fallback**: CAN bus using MCP2515 modules (already owned)
+
+## Hardware Used for CAN
+- 3× MCP2515 CAN modules (one on Pi, one on each ESP32)
+- Twisted pair cable (CAN-H, CAN-L, GND)
+
+## Quick Start (Pi 3B+ Single-Screen Testing)
+
+1. Activate venv:
+   ```bash
+   cd \~/OffRoad-Vehicle-Controller
+   source venv/bin/activate# OffRoad-Vehicle-Controller
+
 Custom vehicle lighting & management system for non-OBD2 off-road build.
 
 ## Hardware
